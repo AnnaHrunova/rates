@@ -1,4 +1,4 @@
-package lv.reactorworshop.rates.bch;
+package lv.reactorworshop.rates.currency;
 
 import lv.reactorworshop.rates.tick.CurrencyRateTickRepresentation;
 import lv.reactorworshop.rates.tick.CurrencyRateTickService;

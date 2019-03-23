@@ -21,7 +21,7 @@ public class RatesController {
     public RatesController() {
         this.rates = WebClient.create("http://localhost:8080")
                               .get()
-                              .uri("/tick")
+                              .uri("/rates")
                               .accept(APPLICATION_STREAM_JSON)
                               .retrieve()
                               .bodyToFlux(CurrencyRateTickRepresentation.class)
@@ -31,7 +31,7 @@ public class RatesController {
 
     @GetMapping("rates")
     public String quotes() {
-        return "tick";
+        return "rates";
     }
 
     @GetMapping(path = "rates/all", produces = TEXT_EVENT_STREAM_VALUE)
