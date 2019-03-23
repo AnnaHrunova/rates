@@ -7,7 +7,7 @@
 <b> Implementation: </b> <br>
   java11, gradle 5.2, springboot 2.1.3, reactor, spring data, embedded mongo. <br><br>
 <b> Run instructions: </b> <br>
-  1). Run CurrencyRatesFluxApplication.java from the 1-crypto-rates module,<br>
-<br>  2). Run CurrencyRatesClientApplication.java from 2-crypto-rates-client-app module,
+  1). Run CurrencyRatesFluxApplication.java from the 1-crypto-rates module,<br>  
+  2). Run CurrencyRatesClientApplication.java from 2-crypto-rates-client-app module,<br>
   3). Open your browser and go to localhost:8081/rates,<br>
   4). You will see a chart for randomly generated bitcoin and ethereum rates.
