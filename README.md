@@ -1,4 +1,4 @@
-Name: 
+Name: <br>
   Rates
 Description:
   Project consists of two modules: 1-crypto-rates and 2-crypto-rates-client-app.
