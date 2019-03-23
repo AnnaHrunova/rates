@@ -1,0 +1,6 @@
+dependencies {
+    implementation libs.springFlux
+    implementation libs.templateEngine
+    implementation libs.lombok
+    annotationProcessor "org.projectlombok:lombok"
+}
