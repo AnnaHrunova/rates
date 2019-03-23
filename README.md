@@ -1,5 +1,5 @@
 <b> Name: </b> <br>
-  <p "padding-left"="5px"> Rates </p> <br>
+  <p class="float-left"> Rates </p> <br>
 <b> Description: </b> <br>
   Project consists of two modules: 1-crypto-rates and 2-crypto-rates-client-app.
   First one generates rates randomly for Bitcoin and Ethereum and saves them into repo.
