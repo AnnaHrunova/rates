@@ -11,3 +11,7 @@
 2). Run CurrencyRatesClientApplication.java from the 2-crypto-rates-client-app module,<br>
 3). Open your browser and go to localhost:8081/rates,<br>
 4). You will see a chart for randomly generated bitcoin and ethereum rates.
+
+<b> TODOs: </b> <br>
+1). Tests,
+2). Refactor services to functions.
